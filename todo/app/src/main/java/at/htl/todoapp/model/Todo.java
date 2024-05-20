@@ -1,13 +1,9 @@
 package at.htl.todoapp.model;
-
 public class Todo {
     public Long userId;
     public Long id;
     public String title;
     public Boolean completed;
-
-    public Todo() {
-    }
 
     public Todo(Long userId, Long id, String title, Boolean completed) {
         this.userId = userId;
