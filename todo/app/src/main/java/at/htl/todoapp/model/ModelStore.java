@@ -1,11 +1,4 @@
 package at.htl.todoapp.model;
-
-import static at.htl.todoapp.model.TodoService.TAG;
-
-import android.util.Log;
-
-import java.util.Arrays;
-
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
