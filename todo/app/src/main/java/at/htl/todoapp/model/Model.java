@@ -7,4 +7,9 @@ public class Model {
 
     public Todo[] todos = new Todo[0];
     public UIState uiState = new UIState();
+
+    public static class HomeScreenModel {
+        public String greetingText = "Hello, world!";
+    }
+    public HomeScreenModel homeScreenModel = new HomeScreenModel();
 }
