@@ -5,6 +5,9 @@ public class Todo {
     public String title;
     public boolean completed;
 
+    public Todo() {
+    }
+
     public Todo(Long userId, Long id, String title, boolean completed) {
         this.userId = userId;
         this.id = id;
